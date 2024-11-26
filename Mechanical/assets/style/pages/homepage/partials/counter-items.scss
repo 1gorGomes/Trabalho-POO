@@ -1,0 +1,19 @@
+main {
+  & .counter-items {
+    gap: 1rem;
+    align-items: center;
+    display: flex;
+    padding: 2.93rem 7rem;
+
+    & > img:hover {
+      cursor: pointer;
+    }
+    
+    & #show-items {
+      font-weight: 500;
+      color: black;
+      opacity: 70%;
+      font-size: 1.12rem;
+    }
+  }
+}

@@ -1,0 +1,9 @@
+@import "./partials/input-form.css";
+@import "./partials/container.css";
+@import "./partials/h1-title.css";
+@import "./partials/email-container.css";
+@import "./partials/password-container.css";
+@import "./partials/form-login.css";
+@import "./partials/form-button.css";
+@import "./partials/body.css";
+@import "/assets/style/environment/environment.css";

@@ -1,0 +1,10 @@
+@import "partials/header.css";
+@import "partials/body.css";
+@import "partials/form-button-header.css";
+@import "partials/container-form.css";
+@import "partials/input-search.css";
+@import "partials/table-head.css";
+@import "partials/table-body.css";
+@import "partials/table.css";
+@import "partials/counter-items.css";
+@import "/assets/style/environment/environment.css";

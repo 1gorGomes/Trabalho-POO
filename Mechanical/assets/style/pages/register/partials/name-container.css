@@ -1,0 +1,18 @@
+#name-container {
+  width: 100%;
+}
+#name-container label {
+  margin-bottom: 5px;
+  font-size: 24px;
+  display: block;
+  font-family: var(--font-roboto);
+}
+#name-container a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #002278;
+  transition: 0.3s;
+}
+#name-container a:hover {
+  color: #4d7fff;
+}/*# sourceMappingURL=name-container.css.map */

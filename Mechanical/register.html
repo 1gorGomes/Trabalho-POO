@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/style/pages/register/register.css">
+  <title>Sistema Mecânico - Cadastro</title>
+</head>
+
+<body>
+  <main class="d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="font-poppins text-center f-weight-500 title">Crie uma conta</h1>
+      <form action="POST" class="d-flex align-items-center direction-column" id="form-register">
+        <div id="name-container">
+          <label for="name">Nome</label>
+          <input type="text" placeholder="Digite seu nome" name="name" id="name" required>
+        </div>
+        <div id="email-container">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Digite seu email" name="email" id="email" required>
+        </div>
+        <div id="password-container">
+          <label for="password">Senha</label>
+          <input type="password" placeholder="Digite sua senha" name="password" id="password" required>
+        </div>
+        <button class="font-poppins" type="submit" id="form-button">CADASTRAR-SE</button>
+        <a href="/index.html" class="text-center font-poppins">Já possui uma conta?</a>
+      </form>
+    </div>
+  </main>
+  <script src="./assets/js/pages/register/form-validation.js" defer></script>
+</body>
+
+</html>

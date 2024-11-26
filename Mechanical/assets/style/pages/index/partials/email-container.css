@@ -1,0 +1,18 @@
+#email-container {
+  width: 100%;
+}
+#email-container label {
+  margin-bottom: 5px;
+  font-size: 24px;
+  display: block;
+  font-family: var(--font-roboto);
+}
+#email-container a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #002278;
+  transition: 0.3s;
+}
+#email-container a:hover {
+  color: #4d7fff;
+}/*# sourceMappingURL=email-container.css.map */

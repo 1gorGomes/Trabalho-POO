@@ -1,0 +1,19 @@
+.header {
+  padding: 2.93rem 7rem;
+  background-color: #f1f1f1;
+
+  & .title {
+    font-size: 2.5rem;
+
+    &::after {
+      content: "";
+      top: -10px;
+      height: 4px;
+      width: 35%;
+      background-color: #4d7fff;
+      display: block;
+      margin-left: 4px;
+      position: relative;
+    }
+  }
+}

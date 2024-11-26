@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/style/pages/homepage/homepage.css">
+  <title>Sistema Mecânico - Home</title>
+</head>
+
+<body>
+  <header>
+    <div class="header d-flex space-between">
+      <h1 class="title font-poppins f-weight-400">Produtos</h1>
+      <form action="GET" id="form-search" class="d-flex space-between align-items-center gap-3">
+        <div class="container-input d-flex align-items-center">
+          <img src="/assets/icons/search.svg" alt="Search icon" class="search-icon">
+          <input type="text" placeholder="Buscar produto por nome ou preço" id="input-search">
+        </div>
+        <button type="submit" id="form-button-header" class="btn-linear-gradient">ADICIONAR</button>
+      </form>
+    </div>
+  </header>
+  <main>
+    <div class="counter-items">
+      <p class="font-roboto" id="show-items"></p>
+      <img src="/assets/icons/update.svg" alt="Update icon" id="update-icon" class="d-none">
+    </div>
+    <table class="table">
+      <thead id="table-head">
+        <tr class="d-flex">
+          <th>ID</th>
+          <th>NOME</th>
+          <th>PREÇO</th>
+          <th>QUANTIDADE</th>
+          <th>TOTAL</th>
+        </tr>
+      </thead>
+      <tbody id="table-body">
+      </tbody>
+    </table>
+  </main>
+  <script src="/assets/js/pages/homepage/modal.js" defer></script>
+  <script src="/assets/js/pages/homepage/getAll.js" defer></script>
+</body>
+
+</html>

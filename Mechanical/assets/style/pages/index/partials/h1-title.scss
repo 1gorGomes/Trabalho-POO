@@ -1,0 +1,9 @@
+.title {
+  margin-top: 3rem;
+
+  &::after {
+    color: #4d7fff;
+    content: ".";
+    display: inline-block;
+  }
+}

@@ -1,0 +1,8 @@
+.title {
+  margin-top: 3rem;
+}
+.title::after {
+  color: #4d7fff;
+  content: ".";
+  display: inline-block;
+}/*# sourceMappingURL=h1-title.css.map */

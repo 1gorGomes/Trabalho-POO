@@ -1,0 +1,21 @@
+.container-input {
+  position: relative;
+}
+.container-input .search-icon {
+  width: 40px;
+  height: 40px;
+  left: 10px;
+  position: absolute;
+}
+.container-input #input-search {
+  border-radius: 5px;
+  height: 3.7rem;
+  width: 25rem;
+  padding-left: 3.5rem;
+}
+.container-input #input-search::-moz-placeholder {
+  font-size: 16px;
+}
+.container-input #input-search::placeholder {
+  font-size: 16px;
+}/*# sourceMappingURL=input-search.css.map */

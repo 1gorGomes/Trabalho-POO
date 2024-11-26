@@ -1,0 +1,29 @@
+.table #table-body {
+  position: relative;
+}
+.table #table-body tr {
+  justify-content: space-evenly;
+  display: flex;
+  position: relative;
+}
+.table #table-body tr td {
+  padding: 2.93rem 0rem;
+  width: 18rem;
+  text-align: left;
+  color: #838383;
+  font-size: 1.12rem;
+  font-family: var(--font-roboto);
+}
+.table #table-body tr td:first-child {
+  width: 6.25rem;
+}
+.table #table-body tr::after {
+  content: "";
+  width: 100%;
+  left: 0px;
+  height: 2px;
+  bottom: 0px;
+  display: block;
+  position: absolute;
+  background-color: #d9d9d9;
+}/*# sourceMappingURL=table-body.css.map */

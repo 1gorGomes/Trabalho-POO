@@ -1,0 +1,21 @@
+.container-input {
+  position: relative;
+
+  & .search-icon {
+    width: 40px;
+    height: 40px;
+    left: 10px;
+    position: absolute;
+  }
+
+  & #input-search {
+    border-radius: 5px;
+    height: 3.7rem;
+    width: 25rem;
+    padding-left: 3.5rem;
+
+    &::placeholder {
+      font-size: 16px;
+    }
+  }
+}

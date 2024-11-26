@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/style/pages/index/index.css">
+  <title>Sistema Mecânico - Login</title>
+</head>
+
+<body>
+  <main class="d-flex align-items-center justify-content-center">
+    <div class="container">
+      <h1 class="font-poppins text-center f-weight-500 title">Entre em sua conta</h1>
+      <form action="POST" class="d-flex align-items-center direction-column" id="form-login">
+        <div id="email-container">
+          <label for="email">Email</label>
+          <input type="email" placeholder="Digite seu email" name="email" id="email" required>
+        </div>
+        <div id="password-container">
+          <label for="password">Senha</label>
+          <input type="password" placeholder="Digite sua senha" name="password" id="password" required>
+        </div>
+        <button class="font-poppins" type="submit" id="form-button">ENTRAR</button>
+        <a href="./register.html" class="text-center font-poppins">Não possui uma conta? Cadastre-se</a>
+      </form>
+    </div>
+  </main>
+  <script src="./assets/js/pages/index/form-validation.js" defer></script>
+</body>
+
+</html>
